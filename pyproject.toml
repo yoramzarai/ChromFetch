@@ -1,0 +1,16 @@
+[project]
+name = "chromfetch"
+version = "0.1.0"
+description = "A fast, arbitrary chromosome sequence fetching."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.2.1",
+    "requests>=2.32.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+    "ruff>=0.8.4",
+]
