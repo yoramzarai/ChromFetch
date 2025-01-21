@@ -5,7 +5,6 @@ from utils import Cfetch
 
 def main() -> None:
     """Usage examples."""
-
     # homo sapiens
     cfetch = Cfetch(species='homo_sapiens')
 

@@ -1,11 +1,11 @@
 [project]
 name = "chromfetch"
-version = "0.1.0"
+version = "0.2.0"
 description = "A fast, arbitrary chromosome sequence fetching."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "numpy>=2.2.1",
+    "numpy>=2.2.2",
     "requests>=2.32.3",
 ]
 

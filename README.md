@@ -11,10 +11,9 @@ The tool can fetch the sequence from either:
 - a provided chromosome Fasta file, or
 - remotely from Ensembl using the Ensembl REST API
 
-In case of a provided chromosome Fasta file, the code loads only the queried sequence and not the complete Fasta file.
+In case of a provided chromosome Fasta file, the file must contain equal number of bps per row (except possibly the last row). The code loads only the queried sequence and not the complete Fasta file content. The chromosome Fasta file can be either gzip compressed (with a `.gz` suffix) or uncompressed.
 
 # Usage
-
 ```python
 from pathlib import Path
 from utils import Cfetch
